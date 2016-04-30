@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash/splash-icon.png">
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" 			media="screen and (max-device-width: 320px)" />  
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen%402x.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+<link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash/splash-screen%403x.png" />
+<link rel="apple-touch-startup-image" sizes="1024x748" href="images/splash/splash-screen-ipad-landscape.html" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)" />
+<link rel="apple-touch-startup-image" sizes="768x1004" href="images/splash/splash-screen-ipad-portrait.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)" />
+<link rel="apple-touch-startup-image" sizes="1536x2008" href="images/splash/splash-screen-ipad-portrait-retina.png"   media="(device-width: 768px)	and (orientation: portrait)	and (-webkit-device-pixel-ratio: 2)"/>
+<link rel="apple-touch-startup-image" sizes="1496x2048" href="images/splash/splash-screen-ipad-landscape-retina.png"   media="(device-width: 768px)	and (orientation: landscape)	and (-webkit-device-pixel-ratio: 2)"/>
+<title>Contact Us</title>
+<link href="styles/style.css"     		 rel="stylesheet" type="text/css">
+<link href="styles/framework.css" 		 rel="stylesheet" type="text/css">
+<link href="styles/menu.css" 		 	 rel="stylesheet" type="text/css">
+<link href="styles/owl.theme.css" 		 rel="stylesheet" type="text/css">
+<link href="styles/swipebox.css"		 rel="stylesheet" type="text/css">
+<link href="styles/font-awesome.css"	 rel="stylesheet" type="text/css">
+<link href="styles/animate.css"			 rel="stylesheet" type="text/css">
+<script type="text/javascript" src="scripts/glovebox.js"></script>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+<script>
+	jQuery(document).ready(function()
+	{
+		jQuery.post('http://generic.webbyinfotech.in/projs.php',
+			{
+				menu:true
+			},
+			function(data)
+			{
+				jQuery(".outer-nav").html(data);
+			}
+		);
+	});
+</script>
+</head>
+<body  onLoad="createDatabase();">
+
+<div id="preloader">
+	<div id="status">
+    	<p class="center-text">
+			Loading the content...
+            <em>Loading depends on your connection speed!</em>
+        </p>
+    </div>
+</div>
+
+<div class="all-elements">
+<div id="perspective" class="perspective effect-airbnb">
+	<!--header -->
+	<div class="header">
+        <a href="#" id="showMenu"><i class="fa fa-navicon"></i></a>
+        <a href="#" id="pageLogo"><img src="images/logo2.png" alt="img"></a>
+        <a href="#" id="openMail"><i class="fa fa-envelope-o"></i></a>
+    </div> 	
+	<!--header -->
+	<!--menu -->
+    <div class="outer-nav">
+        
+    </div>
+	<!--menu -->
+	<div class="perspective_container"><!--the "moving to the left" content box-->
+        <div class="wrapper"><!-- wrapper needed for scroll -->
+         	<div class="header-clear"><i class="fa fa-times"></i></div>
+			<div class="decoration"></div>
+			<div class="content">
+				<div >
+                    <div class="container">
+                        <h4>Our Services</h4>
+                        <p></p>
+                        <div class="tabs">
+                            <a href="#" class="tab-but tab-but-1 tab-active">Technology</a>
+                            <a href="#" class="tab-but tab-but-2">Consultancy</a>
+                            <a href="#" class="tab-but tab-but-3">Outsourcing</a>
+                            <a href="#" class="tab-but tab-but-4">IT Support</a>     
+                        </div>
+                        <div class="tab-content tab-content-1">
+                            <p>
+                                <h2>Application Management</h2>
+
+With over a decade of successful global operations and technological expertise, Vertexplus has been developing custom applications to help clients in optimizing operational procedures for enhanced results and overall productivity. Beyond developing applications to suit established requirements, our application management services offers unique advantage of developing, maintaining & upgrading applications to constantly support your ever-growing business needs and adapting technological changes. It not only entails agile engagement during the development phase of application but also ensures support during the assembly, integration, implementation, and entire lifecycle of application management. Our Application Management focuses on assessing all your business needs, synchronize & integrate your complete portfolio of applications with an aim to add efficiency and provide seamless functioning across various levels of your organization. It also enables to optimize performance and the cost of your vital business applications.
+While our technology applications exist to fulfill several niche needs of clients, we leverage our expertise and strengths in application management to boost their core competence for enhanced results and overall productivity. Our emphasis is making growth relevant to your needs, adapting transformation into smooth optimal practices, and ensuring lifecycle management that makes sure the application is ready for future business.
+                            </p>
+                        </div>
+                        <div class="tab-content tab-content-2">
+                            <p>
+                                <h2>Software Consulting</h2>
+
+We empower clients with our expert IT consulting and strategic recommendations that transform overall productivity and profitability of their business processes. Vertexplus partners with your in-house technical teams to design, develop and implement IT solutions in line with your unique transformation needs.
+From planning & strategy to conclusive implementation, our broad spectrum of IT consulting includes collaborative counseling on traditional technologies and integration with emerging domains and new frameworks. With our vast industry experience and global insights, we help you plan and develop agile strategies and IT solutions to best suit your organizational architecture and business needs.
+Working with your business’ software teams, our qualified professionals help strategize, build and renovate your processes and approach for maximizing time bound competitive results.
+                            </p>
+                        </div>
+                        <div class="tab-content tab-content-3">
+                            <p>
+                                <h2>Human Resource Outsourcing</h2>
+
+With more than nine years of experience in meeting human resource requirements, our efforts have proved highly resourceful for different organizational needs.
+By employing the most meticulous methods of short listing candidates, segregating them into the precise framework of skills, orientations and experience; we strive to bring the best options for different IT staffing needs.
+We thoroughly analyze the employment requirements, contemplate departmental framework and relate it with the job description. This helps us to bring the best suited resource with right skill-set that precisely fits the job requirements.
+Contract Hiring is one of the most sought after services in our gamut of Human Resource Outsourcing. We have a team of competent professionals who can work dedicatedly on contractual basis for your working propositions in line with the contract. What makes us best in this department is the ability to offer most compatible and result-oriented solutions for your unique hiring needs.
+Over the years, many IT organizations (including big corporate), have been subscribing our contract hiring as it saves a lot of indirect cost of maintaining employees and also relieves them from hassles of managing salaries, insurance, benefits and appraisals etc. It also offers them flexibility of renewing the term or shifting, adding resources to adjust their operations in dynamic business environment.
+Virtual staffing is another cost-effective alternative for human resource outsourcing that VertexPlus provides for key functions like IT management, production, quality assurance, monitoring and control.
+With our virtual staffing services you can get professional staffing, ideal office space without buying it or paying for its rent, the virtual office brings all potential system practices in place in most cost-effective manner.
+                            </p>
+                        </div>
+                        <div class="tab-content tab-content-4">
+                            <p>
+								<h2>Technical Support & Maintenance</h2>
+                                With a history of successful ten years and happy clients across the world, our technical support and maintenance services are fully equipped to enhance & maintain technical efficiency, reduce system downtime and ensure quality performance.
+Technical support and maintenance services from Vertexplus include 24/7 remote technical support services, quick bug fixes, continuous content updates and software functionality upgrades.
+Our main aim is to save valuable time of our clients by minimizing their efforts to counter any software related problems, monitor, identify and repair bugs. Plus, you can report problems to us any time and our proficient service team will resolve the issues within minimum possible turn-around time.
+In addition to bug fixing, we help you through implementation of new soft-wares, system upgrades, content updates, real time repair & monitoring and everything that you may need to support productivity of your IT resources and organization.
+                            </p>
+                        </div>       
+                    </div>      
+                </div>
+			
+			</div>
+			<div class="decoration"></div>
+                <div class="footer-section">
+                    <p class="footer-text">
+                        Copyright 2016.<br>
+                        All rights reserved.
+                    </p>
+                    <div class="footer-icons">
+                        <a href="#" class="footer-facebook-icon"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="footer-google-icon"><i class="fa fa-google-plus"></i></a>
+                        <a href="#" class="footer-twitter-icon"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="footer-up-icon"><i class="fa fa-angle-up"></i></a>
+                    </div>
+                </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript" src="scripts/menu.js"></script>
+<script type="text/javascript" src="scripts/jqueryui.js"></script>
+<script type="text/javascript" src="scripts/framework.plugins.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<!--<script type="text/javascript" src="js/cordova.js"></script> -->
+</body>
+</html>

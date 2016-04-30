@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash/splash-icon.png">
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" 			media="screen and (max-device-width: 320px)" />  
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen%402x.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+<link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash/splash-screen%403x.png" />
+<link rel="apple-touch-startup-image" sizes="1024x748" href="images/splash/splash-screen-ipad-landscape.html" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)" />
+<link rel="apple-touch-startup-image" sizes="768x1004" href="images/splash/splash-screen-ipad-portrait.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)" />
+<link rel="apple-touch-startup-image" sizes="1536x2008" href="images/splash/splash-screen-ipad-portrait-retina.png"   media="(device-width: 768px)	and (orientation: portrait)	and (-webkit-device-pixel-ratio: 2)"/>
+<link rel="apple-touch-startup-image" sizes="1496x2048" href="images/splash/splash-screen-ipad-landscape-retina.png"   media="(device-width: 768px)	and (orientation: landscape)	and (-webkit-device-pixel-ratio: 2)"/>
+<title>About Us</title>
+<link href="styles/style.css"     		 rel="stylesheet" type="text/css">
+<link href="styles/framework.css" 		 rel="stylesheet" type="text/css">
+<link href="styles/menu.css" 		 	 rel="stylesheet" type="text/css">
+<link href="styles/owl.theme.css" 		 rel="stylesheet" type="text/css">
+<link href="styles/swipebox.css"		 rel="stylesheet" type="text/css">
+<link href="styles/font-awesome.css"	 rel="stylesheet" type="text/css">
+<link href="styles/animate.css"			 rel="stylesheet" type="text/css">
+<script type="text/javascript" src="scripts/glovebox.js"></script>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+<script>
+	jQuery(document).ready(function()
+	{
+		jQuery.post('http://generic.webbyinfotech.in/projs.php',
+			{
+				menu:true
+			},
+			function(data)
+			{
+				jQuery(".outer-nav").html(data);
+			}
+		);
+	});
+</script>
+</head>
+<body  onLoad="createDatabase();">
+
+<div id="preloader">
+	<div id="status">
+    	<p class="center-text">
+			Loading the content...
+            <em>Loading depends on your connection speed!</em>
+        </p>
+    </div>
+</div>
+
+<div class="all-elements">
+<div id="perspective" class="perspective effect-airbnb"><!--this houses the entire page, and creates the effect-->
+    <!--header -->
+	<div class="header">
+        <a href="#" id="showMenu"><i class="fa fa-navicon"></i></a>
+        <a href="#" id="pageLogo"><img src="images/logo2.png" alt="img"></a>
+        <a href="#" id="openMail"><i class="fa fa-envelope-o"></i></a>
+    </div> 	
+	<!--header -->
+	<!--menu -->
+    <div class="outer-nav">
+    </div>
+	<!--menu -->
+	<div class="perspective_container"><!--the "moving to the left" content box-->
+        <div class="wrapper"><!-- wrapper needed for scroll -->
+         	<div class="header-clear"><i class="fa fa-times"></i></div>
+			<div class="decoration"></div>
+            
+            <div class="content">
+                <div class="container no-bottom">
+                    <h4>About US</h4>
+                    <p>Lets know brief about MR WEBBY</p>
+                </div>
+                <div class="one-half-responsive last-column">
+                    <div class="container">
+                        <div class="toggle-1">
+                            <a href="#" class="deploy-toggle-1">About</a>
+                            <div class="toggle-content">
+                                <p>
+									Webby Infotech is well specialized services in India since last three years we here to make your dreams in reality. We are providing software based services in commercial, industrial, pharmaceutical, educational and hotel and many more. Webby Infotech is the growing offshore development in mobile and website development. The company is well known and specialized in web design, web application in various domains and also provides online marketing techniques through SEO / Internet marketing, E-Commerce and other IT Services. 
+                                </p>
+                            </div>
+                        </div>
+						<br />
+						<div class="toggle-1">
+                            <a href="#" class="deploy-toggle-1">Mission</a>
+                            <div class="toggle-content">
+                                <p>
+									Our company Webby Infotech is basically software developing company. Since its establishment, the company has achieved outstanding success in developing,Training and delivering a stream of innovative products, services and solutions in the given field. Besides that we are also working in the field of Outsourcing and Placement. We are having many small as well as large scales IT companies in Surat. Our goal of the company is to generate new innovations, through the ideas and information from the Super minded IT student Prodigy and put them on new horizons of the IT field. 
+                                </p>
+                            </div>
+                        </div>
+						<br />
+						<div class="toggle-1">
+                            <a href="#" class="deploy-toggle-1">Vision</a>
+                            <div class="toggle-content">
+                                <p>
+									Webby Infotech is formed by well expertise professional team ready to provide IT based services. We are also in business of Training, research and development. We provide very customer friendly support in all causes that helps customer to maintain good relationships. Our skilled professionals lend their hand for all types of solutions satisfying customer’s needs and requirements.
+                                </p>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            	<div class="decoration"></div>
+                <div class="footer-section">
+                    <p class="footer-text">
+                        Copyright 2016.<br>
+                        All rights reserved.
+                    </p>
+                    <div class="footer-icons">
+                        <a href="#" class="footer-facebook-icon"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="footer-google-icon"><i class="fa fa-google-plus"></i></a>
+                        <a href="#" class="footer-twitter-icon"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="footer-up-icon"><i class="fa fa-angle-up"></i></a>
+                    </div>
+                </div>
+        	</div><!--content-->
+        </div><!-- wrapper -->
+    </div><!-- /perspective container -->
+</div><!-- /perspective -->
+</div>
+<script type="text/javascript" src="scripts/menu.js"></script>
+<script type="text/javascript" src="scripts/jqueryui.js"></script>
+<script type="text/javascript" src="scripts/framework.plugins.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<!--<script type="text/javascript" src="js/cordova.js"></script> -->
+</body>
+</html>
